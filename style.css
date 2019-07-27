@@ -1,0 +1,136 @@
+@media screen and (max-width: 560px) {
+    * {
+        margin: 0px;
+        padding: 0px;
+        background-size: cover;
+        background-position: center;
+    }
+    .form {
+        width: 30px;
+        left: -29%;
+        transform: translate(0px, -40px);
+        margin-top: 5px;
+        position: relative;
+    }
+}
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: san-serif;
+    background: url('beautiful_silence.jpg');
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.form {
+    background: rgba(221, 146, 143, 0.5);
+    width: 450px;
+    height: 450px;
+    margin-left: 34%;
+    margin-top: 80px;
+    position: relative;
+    padding: 20px;
+    border-radius: 50px;
+}
+.header {
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 3px;
+    text-decoration: underline;
+}
+
+.header p {
+    font-weight: bold;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+input {
+    width: 430px;
+    margin-bottom: 10px;
+    height: 24px;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+button {
+    width: 440px;
+    height: 35px;
+    border-radius: 25px;
+    color: white;
+    background-color:rgb(51, 49, 73);
+}
+
+span {
+    color: rgb(59, 12, 112);
+}
+
+small {
+    font-family: arial;
+    font-size: 15px;
+}
+
+input:focus {
+    border-radius: 25px;
+    font-family: san-serif;
+    font-weight: bold;
+    color: white;
+    background-color:black;
+    padding: 3px;
+}
+
+button:hover {
+    border-radius: 25px;
+    background: rgba(255, 0, 0, 0);
+    margin-top: 3px;
+}
+
+a{ 
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.fill {
+    margin-top: 20px;
+    font-family: arial;
+}
+
+label {
+    font-size: 18px;
+    font-weight: 20px;
+    padding-top: 20px;
+}
+
+.result {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 14px;
+    font-style: italic;
+}
+.result input {
+    cursor: not-allowed;
+    font-style: italic;
+    font-size: 14px;    
+}
+
+footer {
+    margin-top: 17px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#button1 {
+    width: 440px;
+    height: 35px;
+    border-radius: 25px;
+    color: white;
+    background-color:rgba(124, 86, 86, 0.158);
+}
