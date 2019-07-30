@@ -1,13 +1,15 @@
-@media screen and (max-width: 560px) {
+@media screen and (max-width: 760px) {
     * {
         margin: 0px;
         padding: 0px;
         background-size: cover;
         background-position: center;
+
     }
     .form {
         width: 30px;
-        left: -29%;
+        left: -18%;
+        right: -18%;
         transform: translate(0px, -40px);
         margin-top: 5px;
         position: relative;
